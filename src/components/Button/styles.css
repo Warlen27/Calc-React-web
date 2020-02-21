@@ -1,0 +1,45 @@
+.button {
+    cursor: pointer;
+    color: #f1f1f1;
+    font-size: 2rem;
+    border: 1px solid #444;
+    background-color: #333;
+   
+
+  }
+  
+   .button:active {
+    
+    background-color: #444;
+  }
+  
+  .button.span-two {
+    grid-column: span 2;
+  }
+  
+  .button.span-three {
+    grid-column: span 3;
+  }
+
+  
+
+
+
+  .button.operator{
+    background-color:  #DC143C;
+    
+  }
+  
+  .button.operator:active {
+    background-color:  #eb1f48;
+    
+  }
+  
+  .button.equal {
+    background-color:#960e6d;
+  }
+  
+  .button.equal:active {
+    background-color:  #ad107d;
+    
+  }
