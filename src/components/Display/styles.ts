@@ -1,4 +1,6 @@
-.display {
+import styled from 'styled-components';
+
+export const DisplayLayout = styled.div`
     grid-column: span 4;
     background-color: #222;
     color: #fff;
@@ -10,10 +12,8 @@
     padding: 20px;
     word-wrap: break-word;
     word-break: break-all;
+    border-radius: 20px 20px 0 0;
+`;
 
-   
-  }
-  
-  
-  
- 
+
+
