@@ -7,5 +7,5 @@ type Props = {
 };
 
 export default function Display({ value }: Props) {
-  return <DisplayLayout>{value}</DisplayLayout>;
+  return <DisplayLayout role="contentinfo">{value}</DisplayLayout>;
 }

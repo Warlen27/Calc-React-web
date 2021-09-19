@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const DisplayLayout = styled.div`
+export const DisplayLayout = styled.section`
     grid-column: span 4;
     background-color: #222;
     color: #fff;
