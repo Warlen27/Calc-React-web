@@ -33,6 +33,7 @@ export default function Button({
       bgColor={bgColor}
       bgActive={bgActive}
       onClick={handleClick}
+      aria-label={label}
     >
       {img ? <ImageIcon src={icon} alt="icon" /> : label}
     </ButtonContainer>
